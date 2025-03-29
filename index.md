@@ -36,56 +36,54 @@
         /* Header styling */
         .title-header {
             background-color: var(--dark-bg);
-            padding: 30px 40px;
-            margin: 0 -25%;
-            width: 150%;
+            padding: 40px;
+            margin: 0 0 30px 0;
+            width: 100%;
             position: relative;
             color: white;
+            text-align: center;
+        }
+        
+        .header-content {
             display: flex;
+            align-items: center;
             justify-content: center;
-            align-items: center;
+            max-width: 800px;
+            margin: 0 auto;
         }
         
-        .title-content {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            max-width: 1000px;
-            width: 100%;
-            justify-content: space-between;
-        }
-        
-        .name-section {
-            font-size: 2.6rem;
-            text-transform: uppercase;
-            font-weight: 700;
-            letter-spacing: 1px;
-            text-align: right;
-        }
-        
-        .resume-section {
+        .text-container {
             display: flex;
             align-items: center;
         }
         
-        .resume-title {
-            font-size: 2.6rem;
+        .name-title {
+            font-size: 2.5rem;
             text-transform: uppercase;
             font-weight: 700;
             margin-right: 20px;
+            white-space: nowrap;
         }
         
         .separator {
-            width: 8px;
-            height: 60px;
+            width: 6px;
+            height: 50px;
             background-color: var(--accent-color);
             display: inline-block;
-            margin: 0 30px;
+            margin: 0 20px;
+        }
+        
+        .resume-title {
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            margin-right: 20px;
+            white-space: nowrap;
         }
         
         .profile-image {
-            width: 100px;
-            height: 100px;
+            width: 90px;
+            height: 90px;
             overflow: hidden;
             border-radius: 5px;
             border: 3px solid var(--accent-color);
@@ -325,14 +323,14 @@
     <div class="container">
         <!-- Title Header -->
         <header class="title-header">
-            <div class="title-content">
-                <h1 class="name-section">Şükrü Atsızelti</h1>
-                <span class="separator"></span>
-                <div class="resume-section">
+            <div class="header-content">
+                <div class="text-container">
+                    <h1 class="name-title">Şükrü Atsızelti</h1>
+                    <span class="separator"></span>
                     <h1 class="resume-title">Resume</h1>
-                    <div class="profile-image">
-                        <img src="assets/images/profile.jpg" alt="Profile Photo">
-                    </div>
+                </div>
+                <div class="profile-image">
+                    <img src="assets/images/profile.jpg" alt="Profile Photo">
                 </div>
             </div>
         </header>
