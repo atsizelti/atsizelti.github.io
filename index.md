@@ -309,6 +309,6 @@ title: Şükrü Atsızelti | Ph.D. Candidate in Sociology
   </section>
 
   <footer>
-    <p>Email: <a href="mailto:satsizelti22@ku.edu.tr">satsizelti22@ku.edu.tr</a> · Tel: +90 506 378 17 30</p>
+    <p>Email: <a href="mailto:satsizelti22@ku.edu.tr">satsizelti22@ku.edu.tr</a></p>
   </footer>
 </div>
