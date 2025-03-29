@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -32,14 +31,13 @@
             background-color: var(--dark-gray);
             color: white;
             padding: 30px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
             margin-bottom: 30px;
+            text-align: center;
         }
         
         .name-container {
             display: flex;
+            flex-direction: column;
             align-items: center;
         }
         
@@ -47,24 +45,12 @@
             font-size: 32px;
             font-weight: bold;
             text-transform: uppercase;
-        }
-        
-        .divider {
-            width: 5px;
-            height: 40px;
-            background-color: var(--orange);
-            margin: 0 20px;
-        }
-        
-        .title {
-            font-size: 32px;
-            font-weight: bold;
-            text-transform: uppercase;
+            margin-bottom: 20px;
         }
         
         .photo {
-            width: 100px;
-            height: 100px;
+            width: 120px;
+            height: 120px;
             border: 3px solid var(--orange);
             border-radius: 4px;
             overflow: hidden;
@@ -217,11 +203,9 @@
     <header class="header">
         <div class="name-container">
             <h1 class="name">Şükrü Atsızelti</h1>
-            <div class="divider"></div>
-            <h1 class="title">Resume</h1>
-        </div>
-        <div class="photo">
-            <img src="assets/images/profile.jpg" alt="Profile Photo">
+            <div class="photo">
+                <img src="assets/images/profile.jpg" alt="Profile Photo">
+            </div>
         </div>
     </header>
 
@@ -446,7 +430,124 @@
             </div>
         </div>
         
-        <!-- You can include more entries from your existing CV -->
+        <div class="entry">
+            <div class="date">2024</div>
+            <div class="content">
+                AI in History – Challenges, Opportunities, and Questions Workshop, University of Heidelberg, Germany
+            </div>
+        </div>
+        
+        <div class="entry">
+            <div class="date">2024</div>
+            <div class="content">
+                Wealth Data Science Summer/Winter School 2024, Constructor University, Germany
+            </div>
+        </div>
+        
+        <div class="entry">
+            <div class="date">2024</div>
+            <div class="content">
+                Hürriyetoğlu, A., Yörük, E., Duruşan, F., Topçu, I., Kına, M. F., Yardı, M. C. Gürerk, O., Etgü, T., Atsızelti, A. How to Use AI to Obtain Representative Public Opinion from X, poster presentation at 10th International Conference on Computational Social Science, Philadelphia, USA
+            </div>
+        </div>
+        
+        <div class="entry">
+            <div class="date">2024</div>
+            <div class="content">
+                Atsızelti, Ş., Duruşan F., Yardı, M.C., Delen, M, Gürerk, O., Kına F., Tan, Ş., Hürriyetoğlu, A., Yörük E. Fine-Tuning Pre-Trained Models by LLM-Generated Annotations, Generative AI as a method of social sciences, Emerging Technologies Research Lab Monash University, Australia & Imagining Sustainable Digital Futures, Aalto University, Finland
+            </div>
+        </div>
+        
+        <div class="entry">
+            <div class="date">2024</div>
+            <div class="content">
+                Kına, M. F., Atsızelti, Ş., Yörük, E., Hürriyetoğlu, A., Yardı, M. C., Duruşan, F., Gürerk, O., Etgü, T., Nişancı, Z., Turbic, G. B., & Akbulut, Y. Validating Digital Traces with Survey Data: The Use Case of Religiosity, 16.ACM Web Science Conference 2024, University of Stuttgart, Germany
+            </div>
+        </div>
+        
+        <div class="entry">
+            <div class="date">2024</div>
+            <div class="content">
+                Arab Users' Stances Toward Turkey within Turkish Twittersphere, Turkey Computational Social Sciences Conference 2024, Koç University, Türkiye
+            </div>
+        </div>
+        
+        <div class="entry">
+            <div class="date">2024</div>
+            <div class="content">
+                Kına, F., Atsızelti, Ş. Linking Surveys and Social Media Data: Shaping the Future of Public Opinion Research with the Politus Project, Web Data Opp Workshop, University Pompeu Fabra, Spain
+            </div>
+        </div>
+        
+        <div class="entry">
+            <div class="date">2023</div>
+            <div class="content">
+                Mimicking Surveys within Turkish Context using ChatGPT, Turkey Computational Social Sciences Conference, Koç University, Türkiye
+            </div>
+        </div>
+        
+        <div class="entry">
+            <div class="date">2023</div>
+            <div class="content">
+                Social ComQuant Summer School: Recent Advances in Computational Social Sciences Methods, ISI, Italy
+            </div>
+        </div>
+        
+        <div class="entry">
+            <div class="date">2023</div>
+            <div class="content">
+                Computational Social Science Summer School on Democratic Debate, Constructor University, Germany
+            </div>
+        </div>
+        
+        <div class="entry">
+            <div class="date">2023</div>
+            <div class="content">
+                5th Interdisciplinary Summerschool on Privacy, Radboud University, Netherlands
+            </div>
+        </div>
+        
+        <div class="entry">
+            <div class="date">2023</div>
+            <div class="content">
+                Social ComQuant Exchange Program, Gesis, Germany
+            </div>
+        </div>
+        
+        <div class="entry">
+            <div class="date">2022</div>
+            <div class="content">
+                Social ComQuant Summer School: Text mining and Natural Language Processing for Computational Social Sciences, Koç University, Türkiye
+            </div>
+        </div>
+        
+        <div class="entry">
+            <div class="date">2021</div>
+            <div class="content">
+                Göç Yönetimi Çalışmalarında Büyük Veri Kaynaklarının Kullanımı, III. Göç Çalışmaları Lisansüstü Öğrenci Konferansı, Bilgi University, Türkiye
+            </div>
+        </div>
+        
+        <div class="entry">
+            <div class="date">2019</div>
+            <div class="content">
+                8. Yılında Türkiye'de Suriyeliler Atölyesi, İstanbul University, Türkiye
+            </div>
+        </div>
+        
+        <div class="entry">
+            <div class="date">2019</div>
+            <div class="content">
+                Analytics & Data Science Summer School, Essex University, United Kingdom
+            </div>
+        </div>
+        
+        <div class="entry">
+            <div class="date">2016</div>
+            <div class="content">
+                Erasmus+ Internship, School of Psychology, Cardiff University, United Kingdom
+            </div>
+        </div>
     </section>
 
     <!-- Organized Workshops Section -->
