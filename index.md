@@ -4,13 +4,20 @@ title: Şükrü Atsızelti | Ph.D. Candidate in Sociology
 ---
 
 <div class="container">
-  <header class="header">
-    <div class="header-content">
-      <h1>Şükrü Atsızelti</h1>
-      <h2>Ph.D. Candidate in Sociology</h2>
-    </div>
-    <div class="header-image">
-      <img src="assets/images/profile.jpg" alt="Profile Photo">
+  <!-- Improved header section -->
+  <header class="hero-header">
+    <div class="header-container">
+      <div class="header-content">
+        <h1>Şükrü Atsızelti</h1>
+        <div class="title-separator"></div>
+        <div class="cv-title">
+          <span>Curriculum</span>
+          <span>Vitae</span>
+        </div>
+      </div>
+      <div class="header-image">
+        <img src="assets/images/profile.jpg" alt="Profile Photo">
+      </div>
     </div>
   </header>
 
@@ -302,6 +309,6 @@ title: Şükrü Atsızelti | Ph.D. Candidate in Sociology
   </section>
 
   <footer>
-    <p>Email: <a href="mailto:satsizelti22@ku.edu.tr">satsizelti22@ku.edu.tr</a></p>
+    <p>Email: <a href="mailto:satsizelti22@ku.edu.tr">satsizelti22@ku.edu.tr</a> · Tel: +90 506 378 17 30</p>
   </footer>
 </div>
