@@ -229,17 +229,46 @@
         /* Publications styling */
         .pub-entry {
             display: flex;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
         }
         
         .pub-date {
             width: 120px;
             color: var(--dark-bg);
             font-weight: bold;
+            padding-top: 3px;
         }
         
         .pub-text {
             flex: 1;
+        }
+        
+        .pub-text ul {
+            margin: 8px 0 0 0;
+            padding-left: 20px;
+            list-style-type: none;
+        }
+        
+        .pub-text ul li {
+            position: relative;
+            padding-left: 15px;
+            margin-bottom: 5px;
+        }
+        
+        .pub-text ul li:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 8px;
+            width: 0;
+            height: 0;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-right: 8px solid var(--dark-bg);
+        }
+        
+        .pub-text strong {
+            color: var(--accent-color);
         }
         
         /* Footer styling */
@@ -378,60 +407,36 @@
                 Education
             </div>
             
-            <div class="cv-entry">
-                <div class="entry-header">
-                    <span class="entry-date">2022-Present</span>
-                    <span class="entry-title">Sociology, Ph.D.</span>
-                    <span class="entry-org">Koç University</span>
-                </div>
-                <div class="entry-divider"></div>
-                <div class="entry-content">
-                    <div class="entry-point">
-                        <div class="arrow-left"></div>
-                        <p>Pursuing doctoral studies in Sociology with focus on computational methods</p>
-                    </div>
-                    <div class="entry-point">
-                        <div class="arrow-left"></div>
-                        <p>Research in computational social science, public opinion and social movements</p>
-                    </div>
+            <div class="pub-entry">
+                <span class="pub-date">2022-Present</span>
+                <div class="pub-text">
+                    <strong>Sociology, Ph.D.</strong> - Koç University
+                    <ul>
+                        <li>Pursuing doctoral studies in Sociology with focus on computational methods</li>
+                        <li>Research in computational social science, public opinion and social movements</li>
+                    </ul>
                 </div>
             </div>
             
-            <div class="cv-entry">
-                <div class="entry-header">
-                    <span class="entry-date">2017-2021</span>
-                    <span class="entry-title">Migration Studies, M.A.</span>
-                    <span class="entry-org">Istanbul University</span>
-                </div>
-                <div class="entry-divider"></div>
-                <div class="entry-content">
-                    <div class="entry-point">
-                        <div class="arrow-left"></div>
-                        <p>Master's thesis: "The use of big data in migration management"</p>
-                    </div>
-                    <div class="entry-point">
-                        <div class="arrow-left"></div>
-                        <p>Investigated computational methods in migration research</p>
-                    </div>
+            <div class="pub-entry">
+                <span class="pub-date">2017-2021</span>
+                <div class="pub-text">
+                    <strong>Migration Studies, M.A.</strong> - Istanbul University
+                    <ul>
+                        <li>Master's thesis: "The use of big data in migration management"</li>
+                        <li>Investigated computational methods in migration research</li>
+                    </ul>
                 </div>
             </div>
             
-            <div class="cv-entry">
-                <div class="entry-header">
-                    <span class="entry-date">2013-2017</span>
-                    <span class="entry-title">Psychology, B.A.</span>
-                    <span class="entry-org">Fatih Sultan Mehmet Waqf University</span>
-                </div>
-                <div class="entry-divider"></div>
-                <div class="entry-content">
-                    <div class="entry-point">
-                        <div class="arrow-left"></div>
-                        <p>Studied psychology with interest in social psychology and refugee experience</p>
-                    </div>
-                    <div class="entry-point">
-                        <div class="arrow-left"></div>
-                        <p>Developed foundation in statistics and survey research</p>
-                    </div>
+            <div class="pub-entry">
+                <span class="pub-date">2013-2017</span>
+                <div class="pub-text">
+                    <strong>Psychology, B.A.</strong> - Fatih Sultan Mehmet Waqf University
+                    <ul>
+                        <li>Studied psychology with interest in social psychology and refugee experience</li>
+                        <li>Developed foundation in statistics and survey research</li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -447,79 +452,47 @@
                 Work Experience
             </div>
             
-            <div class="cv-entry">
-                <div class="entry-header">
-                    <span class="entry-date">2022-Present</span>
-                    <span class="entry-title">Researcher</span>
-                    <span class="entry-org">Politus Analytics</span>
-                </div>
-                <div class="entry-divider"></div>
-                <div class="entry-content">
-                    <div class="entry-point">
-                        <div class="arrow-left"></div>
-                        <p>Conduct advanced computational social science research</p>
-                    </div>
-                    <div class="entry-point">
-                        <div class="arrow-left"></div>
-                        <p>Apply computational methods to understand public opinion and customer journey</p>
-                    </div>
+            <div class="pub-entry">
+                <span class="pub-date">2022-Present</span>
+                <div class="pub-text">
+                    <strong>Researcher</strong> - Politus Analytics
+                    <ul>
+                        <li>Conduct advanced computational social science research</li>
+                        <li>Apply computational methods to understand public opinion and customer journey</li>
+                    </ul>
                 </div>
             </div>
             
-            <div class="cv-entry">
-                <div class="entry-header">
-                    <span class="entry-date">2018-2019</span>
-                    <span class="entry-title">Psychologist</span>
-                    <span class="entry-org">World Academy of Local Government and Democracy</span>
-                </div>
-                <div class="entry-divider"></div>
-                <div class="entry-content">
-                    <div class="entry-point">
-                        <div class="arrow-left"></div>
-                        <p>Provided psycho-social support services</p>
-                    </div>
-                    <div class="entry-point">
-                        <div class="arrow-left"></div>
-                        <p>Applied psychology principles to support community development initiatives</p>
-                    </div>
+            <div class="pub-entry">
+                <span class="pub-date">2018-2019</span>
+                <div class="pub-text">
+                    <strong>Psychologist</strong> - World Academy of Local Government and Democracy
+                    <ul>
+                        <li>Provided psycho-social support services</li>
+                        <li>Applied psychology principles to support community development initiatives</li>
+                    </ul>
                 </div>
             </div>
             
-            <div class="cv-entry">
-                <div class="entry-header">
-                    <span class="entry-date">2017-2019</span>
-                    <span class="entry-title">Coordinator</span>
-                    <span class="entry-org">Press and Publication Association</span>
-                </div>
-                <div class="entry-divider"></div>
-                <div class="entry-content">
-                    <div class="entry-point">
-                        <div class="arrow-left"></div>
-                        <p>Managed press and publication projects</p>
-                    </div>
-                    <div class="entry-point">
-                        <div class="arrow-left"></div>
-                        <p>Coordinated member relations, bookfairs and workshops</p>
-                    </div>
+            <div class="pub-entry">
+                <span class="pub-date">2017-2019</span>
+                <div class="pub-text">
+                    <strong>Coordinator</strong> - Press and Publication Association
+                    <ul>
+                        <li>Managed press and publication projects</li>
+                        <li>Coordinated member relations, bookfairs and workshops</li>
+                    </ul>
                 </div>
             </div>
             
-            <div class="cv-entry">
-                <div class="entry-header">
-                    <span class="entry-date">2014-2022</span>
-                    <span class="entry-title">Freelance Translator</span>
-                    <span class="entry-org">Various Clients</span>
-                </div>
-                <div class="entry-divider"></div>
-                <div class="entry-content">
-                    <div class="entry-point">
-                        <div class="arrow-left"></div>
-                        <p>Provided professional translation services with 10 academic translations</p>
-                    </div>
-                    <div class="entry-point">
-                        <div class="arrow-left"></div>
-                        <p>Specialized in academic and technical translations between Turkish and English</p>
-                    </div>
+            <div class="pub-entry">
+                <span class="pub-date">2014-2022</span>
+                <div class="pub-text">
+                    <strong>Freelance Translator</strong> - Various Clients
+                    <ul>
+                        <li>Provided professional translation services with 10 academic translations</li>
+                        <li>Specialized in academic and technical translations between Turkish and English</li>
+                    </ul>
                 </div>
             </div>
         </section>
