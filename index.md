@@ -160,7 +160,7 @@ title: Şükrü Atsızelti | Ph.D. Candidate in Sociology
   </section>
 
   <section class="cv-section" id="summer-schools">
-    <h2>Summer Schools, Exchanges, Workshops and Conferences</h2>
+    <h2>Summer Schools, Exchanges, Workshops, Conferences and Poster Presentations</h2>
     
     <div class="pub-entry">
       <span class="pub-date">2025</span>
@@ -182,7 +182,90 @@ title: Şükrü Atsızelti | Ph.D. Candidate in Sociology
       <p class="pub-text">Atsizelti, Ş., Hürriyetoğlu, A. Cultural Repertoires and Symbolic Boundaries in Arabic Tweets within the Turkish, Poster presentation at Conference on Natural Language Processing KONVENS 2024/4th Workshop on Computational Linguistics for the Political and Social Sciences, University of Vienna, Austria</p>
     </div>
     
-    <!-- Add more summer schools, conferences, etc. following the same pattern -->
+    <div class="pub-entry">
+      <span class="pub-date">2024</span>
+      <p class="pub-text">AI in History – Challenges, Opportunities, and Questions Workshop, University of Heidelberg, Germany</p>
+    </div>
+    
+    <div class="pub-entry">
+      <span class="pub-date">2024</span>
+      <p class="pub-text">Wealth Data Science Summer/Winter School 2024, Constructor University, Germany</p>
+    </div>
+    
+    <div class="pub-entry">
+      <span class="pub-date">2024</span>
+      <p class="pub-text">Hürriyetoğlu, A., Yörük, E., Duruşan, F., Topçu, I., Kına, M. F., Yardı, M. C. Gürerk, O., Etgü, T., Atsızelti, A. How to Use AI to Obtain Representative Public Opinion from X, poster presentation at 10th International Conference on Computational Social Science, Philadelphia, USA</p>
+    </div>
+    
+    <div class="pub-entry">
+      <span class="pub-date">2024</span>
+      <p class="pub-text">Atsızelti, Ş., Duruşan F., Yardı, M.C., Delen, M, Gürerk, O., Kına F., Tan, Ş., Hürriyetoğlu, A., Yörük E. Fine-Tuning Pre-Trained Models by LLM-Generated Annotations, Generative AI as a method of social sciences, Emerging Technologies Research Lab Monash University, Australia & Imagining Sustainable Digital Futures, Aalto University, Finland</p>
+    </div>
+    
+    <div class="pub-entry">
+      <span class="pub-date">2024</span>
+      <p class="pub-text">Kına, M. F., Atsızelti, Ş., Yörük, E., Hürriyetoğlu, A., Yardı, M. C., Duruşan, F., Gürerk, O., Etgü, T., Nişancı, Z., Turbic, G. B., & Akbulut, Y. Validating Digital Traces with Survey Data: The Use Case of Religiosity, 16.ACM Web Science Conference 2024, University of Stuttgart, Germany</p>
+    </div>
+    
+    <div class="pub-entry">
+      <span class="pub-date">2024</span>
+      <p class="pub-text">Arab Users' Stances Toward Turkey within Turkish Twittersphere, Turkey Computational Social Sciences Conference 2024, Koç University, Türkiye</p>
+    </div>
+    
+    <div class="pub-entry">
+      <span class="pub-date">2024</span>
+      <p class="pub-text">Kına, F., Atsızelti, Ş. Linking Surveys and Social Media Data: Shaping the Future of Public Opinion Research with the Politus Project, Web Data Opp Workshop, University Pompeu Fabra, Spain</p>
+    </div>
+    
+    <div class="pub-entry">
+      <span class="pub-date">2023</span>
+      <p class="pub-text">Mimicking Surveys within Turkish Context using ChatGPT, Turkey Computational Social Sciences Conference, Koç University, Türkiye</p>
+    </div>
+    
+    <div class="pub-entry">
+      <span class="pub-date">2023</span>
+      <p class="pub-text">Social ComQuant Summer School: Recent Advances in Computational Social Sciences Methods, ISI, Italy</p>
+    </div>
+    
+    <div class="pub-entry">
+      <span class="pub-date">2023</span>
+      <p class="pub-text">Computational Social Science Summer School on Democratic Debate, Constructor University, Germany</p>
+    </div>
+    
+    <div class="pub-entry">
+      <span class="pub-date">2023</span>
+      <p class="pub-text">5th Interdisciplinary Summerschool on Privacy, Radboud University, Netherlands</p>
+    </div>
+    
+    <div class="pub-entry">
+      <span class="pub-date">2023</span>
+      <p class="pub-text">Social ComQuant Exchange Program, Gesis, Germany</p>
+    </div>
+    
+    <div class="pub-entry">
+      <span class="pub-date">2022</span>
+      <p class="pub-text">Social ComQuant Summer School: Text mining and Natural Language Processing for Computational Social Sciences, Koç University, Türkiye</p>
+    </div>
+    
+    <div class="pub-entry">
+      <span class="pub-date">2021</span>
+      <p class="pub-text">Göç Yönetimi Çalışmalarında Büyük Veri Kaynaklarının Kullanımı, III. Göç Çalışmaları Lisansüstü Öğrenci Konferansı, Bilgi University, Türkiye</p>
+    </div>
+    
+    <div class="pub-entry">
+      <span class="pub-date">2019</span>
+      <p class="pub-text">8. Yılında Türkiye'de Suriyeliler Atölyesi, İstanbul University, Türkiye</p>
+    </div>
+    
+    <div class="pub-entry">
+      <span class="pub-date">2019</span>
+      <p class="pub-text">Analytics & Data Science Summer School, Essex University, United Kingdom</p>
+    </div>
+    
+    <div class="pub-entry">
+      <span class="pub-date">2016</span>
+      <p class="pub-text">Erasmus+ Internship, School of Psychology, Cardiff University, United Kingdom</p>
+    </div>
   </section>
 
   <section class="cv-section" id="organized-workshops">
