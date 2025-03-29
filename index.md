@@ -36,50 +36,65 @@
         /* Header styling */
         .title-header {
             background-color: var(--dark-bg);
-            padding: 20px;
+            padding: 30px 40px;
             margin: 0 -25%;
             width: 150%;
             position: relative;
             color: white;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
         }
         
         .title-content {
             display: flex;
             align-items: center;
-            gap: 10px;
-            margin-left: 25%;
+            gap: 20px;
+            max-width: 1000px;
+            width: 100%;
+            justify-content: space-between;
         }
         
-        .name-title {
-            font-size: 2.8rem;
+        .name-section {
+            font-size: 2.6rem;
             text-transform: uppercase;
             font-weight: 700;
             letter-spacing: 1px;
+            text-align: right;
+        }
+        
+        .resume-section {
+            display: flex;
+            align-items: center;
         }
         
         .resume-title {
-            font-size: 2.8rem;
+            font-size: 2.6rem;
             text-transform: uppercase;
             font-weight: 700;
+            margin-right: 20px;
         }
         
         .separator {
-            width: 5px;
-            height: 40px;
+            width: 8px;
+            height: 60px;
             background-color: var(--accent-color);
             display: inline-block;
-            margin: 0 15px;
+            margin: 0 30px;
         }
         
         .profile-image {
-            margin-right: 25%;
-            width: 120px;
-            height: 120px;
+            width: 100px;
+            height: 100px;
             overflow: hidden;
             border-radius: 5px;
+            border: 3px solid var(--accent-color);
+        }
+        
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
         
         .profile-image img {
@@ -311,12 +326,14 @@
         <!-- Title Header -->
         <header class="title-header">
             <div class="title-content">
-                <h1 class="name-title">Şükrü Atsızelti</h1>
+                <h1 class="name-section">Şükrü Atsızelti</h1>
                 <span class="separator"></span>
-                <h1 class="resume-title">Resume</h1>
-            </div>
-            <div class="profile-image">
-                <img src="assets/images/profile.jpg" alt="Profile Photo">
+                <div class="resume-section">
+                    <h1 class="resume-title">Resume</h1>
+                    <div class="profile-image">
+                        <img src="assets/images/profile.jpg" alt="Profile Photo">
+                    </div>
+                </div>
             </div>
         </header>
 
