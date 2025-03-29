@@ -32,13 +32,17 @@
             color: white;
             padding: 30px;
             margin-bottom: 30px;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         
         .name-container {
             display: flex;
             flex-direction: column;
             align-items: center;
+            width: 100%;
+            max-width: 600px;
         }
         
         .name {
@@ -46,6 +50,7 @@
             font-weight: bold;
             text-transform: uppercase;
             margin-bottom: 20px;
+            text-align: center;
         }
         
         .photo {
@@ -54,6 +59,7 @@
             border: 3px solid var(--orange);
             border-radius: 4px;
             overflow: hidden;
+            margin: 0 auto;
         }
         
         .photo img {
