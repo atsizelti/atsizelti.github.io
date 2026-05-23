@@ -353,16 +353,6 @@
                 </div>
 
                 <div class="pub">
-                    <div class="pub-year">2026 <span class="badge badge-review">Under Review</span></div>
-                    Atsızelti, Ş. (2026). Total Error Framework for Language Model Based Synthetic Surveys.
-                </div>
-
-                <div class="pub">
-                    <div class="pub-year">2026 <span class="badge badge-revision">Under Revision</span></div>
-                    Yörük, E., Hürriyetoğlu, A., Kına, M. F., Duruşan, F., Yardı, M. C., Atsızelti, Ş., Etgü, T., Delen, E., Gürsoy, M. E., Yıldız, Ö., Koyuncu, M., &amp; Mutlu, O. (2026). Enlighty politus: A political public opinion dataset from social media in Turkey processed with privacy-preserving AI.
-                </div>
-
-                <div class="pub">
                     <div class="pub-year">2025</div>
                     Atsızelti, Ş. (2025). Computational Research in Ethnic and Migration Studies [Book Review]. <em>International Migration</em>, 63: e70073. <a href="https://doi.org/10.1111/imig.70073">https://doi.org/10.1111/imig.70073</a>
                 </div>
@@ -441,6 +431,13 @@
                 <div class="section-head">
                     <div class="section-title">Organized Events</div>
                     <div class="section-rule"></div>
+                </div>
+
+                <div class="entry">
+                    <div class="entry-date">2026</div>
+                    <div>
+                        <div class="entry-desc">Turkey Computational Social Sciences Conference TCSS IV, Istanbul, Turkey.</div>
+                    </div>
                 </div>
 
                 <div class="entry">
